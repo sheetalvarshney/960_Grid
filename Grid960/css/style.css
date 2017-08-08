@@ -1,0 +1,279 @@
+body{
+    height: 100%;
+}
+
+.logo{
+    text-align: center;
+}
+
+
+.head{
+    position: fixed;
+}
+
+.head h1{
+	background: beige;
+	font-family:arial;
+}
+
+#second_h1{
+	margin-left:-8px;
+	height:74px;
+	text-align:right;
+     padding-right: 20px; 
+}
+
+#hero_unit_title{
+	text-align:center;
+	font-family:Avantgarde;
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #781515;
+    padding: 0 19px;
+	position: relative;
+    margin-top: 75px;
+}
+
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.menu li {
+    
+    float: left;
+}
+
+.one, .two, .three{
+	padding:30px;
+}
+
+.recommended{
+    border-style: double;
+}
+
+.recommended h1{
+    font-family: Avantgarde;
+    text-align: center;
+    color:  #781515;
+    margin-top: 20px;
+}
+
+.watch1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.watch2{
+    padding-left: 30px;
+    padding-top: 20px
+}
+
+
+.watch3{
+   padding-left: 30px;
+    padding-top: 20px;
+}
+
+.recommended .primary2{
+     margin-left: -7px;
+}
+
+
+.recommended .primary3{
+     margin-left: -7px;
+}
+
+
+.recommended .primary3 h2{
+   
+     padding-top: 8px;
+     text-align: center;
+}
+
+
+.recommended .primary3 h4{
+   
+    margin-top: -24px;
+}
+
+.main_body .primary2{
+   margin-left: 2px;
+}
+
+footer{
+    clear: both;
+	background:rgba(98, 10, 10, 0.8);
+    position: relative;
+    width: 100%;
+     margin-left: 0;
+}
+
+.post{
+
+    margin-top: 10px;
+    text-align:right;
+    margin-right: 20px;
+}
+
+footer p, li{
+	color:black;
+}
+
+ h3{
+    color: maroon; 
+
+}
+
+.hero-unit{
+   margin-bottom: 20px;
+   border-style: dotted;
+   position: relative;
+  width: 50%;
+}
+ .hero {
+    margin-left: 1px;
+ }
+
+.hero {
+     padding-left:-20px; 
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.slide {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#0C111466;
+  overflow: auto;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.hero-unit:hover .slide {
+  width: 100%;
+}
+
+.text p{
+   margin-top: 100px;
+   margin-left: 60px;
+  
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.icons p{
+   margin-left: 10%;
+}
+
+.icons li{
+    
+    display: inline;
+    text-decoration-style: none;
+}
+
+.upcoming_menu{
+    width: 100%;
+}
+
+
+.primary1, .primary2, .primary3{
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.primary3 h4{
+
+    padding-top: 8px;
+}
+
+.main_body img{
+    padding-left: 30px;
+}
+
+.main_body h1, h2{
+         margin-left: 30px;
+        margin-top: 10px;
+        color: maroon;
+    }
+
+.main_body h2{
+    padding: 10px;
+
+}
+/*
+.movie1 h4{
+    margin-left: 30px;
+    margin-top: -15px;
+    color: #777;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 16.1167px;
+    text-align:left;
+}*/
+
+
+.movie2, .movie3 , .movie1 h4{
+    margin-left: 30px;
+    margin-top: -25px;
+    color: #777;
+    font-family: arial,sans-serif;
+    
+    line-height: 16.1167px;
+    text-align:left;
+}
+
+
+.grid1:hover {
+     
+ box-shadow:  10px 10px 5px darkgrey;
+}
+
+
+.grid2:hover {
+     
+ box-shadow:  10px 10px 5px darkgrey;
+}
+
+.grid2{
+
+    margin-top: 5px;
+}
+
+.image1:hover {
+     
+ box-shadow:  0 4px 8px 0 darkgrey, 0 6px 20px 0 darkgrey;
+}
+
+.image2:hover {
+     
+ box-shadow:  0 4px 8px 0 darkgrey, 0 6px 20px 0 darkgrey;
+}
+
+.image3:hover {
+     
+ box-shadow:  0 4px 8px 0 darkgrey, 0 6px 20px 0 darkgrey;
+}
